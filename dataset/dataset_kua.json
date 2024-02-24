@@ -1,0 +1,265 @@
+{
+    "intents":[
+      {
+        "tag":"sapaan_pembuka",
+        "patterns":[
+            "hai",
+            "halo",
+            "selamat pagi",
+            "selamat siang",
+            "selmat sore",
+            "selamat malam"
+        ],
+        "responses":[
+            "halo berikut adalah topik yang bisa dibahas oleh KUA bot yaitu \n pengertian KUA, \n batas usia boleh menikah\n cara mengurus pendaftaran pernikahan dan berkas pendaftaran pernikahan, \n tahapan pendaftaran, \n pendaftaran online, \n estimasi waktu pendaftaran, \n tahapan setelah pendaftaran, \n informasi pelaksanaan ijab kabul, \n informasi buku nikah, \n bimbingan perkawinan, \n ijab kabul di KUA, \n ijab Kabul di luar KUA, \n kepala KUA saat ini, \n Alamat dan jam operasional KUA, \n biaya nikah",
+            "selamat datang di KUA bot ada beberapa informasi yang bisa ditanyakan pada kami yaitu, \n pengertian KUA, \n cara mengurus pendaftaran pernikahan dan berkas pendaftaran pernikahan, \n tahapan pendaftaran, \n sistem pendaftaran online, \n estimasi waktu pendaftaran, \n tahapan setelah pendaftaran, \n informasi pelaksanaan ijab kabul, \n informasi buku nikah, \n bimbingan perkawinan,\n batas usia boleh menikah, \n ijab kabul di KUA, \n informasi ijab kabul di luar KUA, \n serta informasi kepala KUA saat ini, \n biaya nikah \n alamat dan jam operasioanl kua "
+        ]
+      },
+      {
+        "tag":"goodbye",
+        "patterns":[
+            "terima kasih",
+            "terima kasih atas informasinya",
+            "sampai jumpa",
+            "goodbye"       
+        ],
+        "responses":[
+            "iya sama-sama",
+            "semoga infromasi KUAbot dapat membantu ",
+            "sampai jumpa",
+            "goodbye"
+        ]
+      },
+      {
+        "tag":"penjelasan_KUA",
+        "patterns":[
+            "pengertian KUA",
+            "apa itu KUA?",
+            "apa yang dimaksud KUA?"
+        ],
+        "responses":[
+            "KUA adalah singkatan dari kantor urusan agama yang melaksanakan sebagian tugas dari kantor kementrian agama di bidang urusan agama islam di wilayah kecamatan"
+            
+        ]
+      },
+      
+      {
+        "tag":"berkas_pendaftaran",
+        "patterns":[
+            "berkas pendaftaran di KUA?",
+            "syarat nikah di KUA?",
+            "apa saja berkas pendaftaran nikah yang harus di bawa ke KUA?",
+            "apa saja berkas pendaftaran nikah yang di butuhkan?",
+            " daftar nikah",
+            "cara urus daftar nikah",
+            "cara mengurus pendaftaran pernikahan",
+            "bagaimana cara mengurus pendaftaran pernikahan ke KUA?",
+            "gimana sih cara ngurus pendafataran pernikahan?",
+            "apa berkas pendaftaran nikah ke KUA yang perlu disiapkan?"
+            
+        ],
+        "responses":[
+            "cara nya sangat mudah kedua calon pasangan bisa langsung datang ke KUA dan membawa berkas pendaftaran ke KUA nanti petugas di KUA akan langsung mengurus dan memriksa berkas berupa 1lembar foto copy ktp dari setiap calon pengantin,\n1 lembar foto copy ijazah terakhir dari setiap calon pengantin, \n1 lembar foto copy akte kelahiran dari setiap calon pengantin, \n4 lembar foto background biru ukuran 3x4, \n1 lembar pas foto background biru ukuran 4x6, \n surat pengantar dari desa atau surat pemberkasan"
+        ]
+
+      },
+      {
+        "tag":"tahapan_pendaftaran",
+        "patterns":[
+            "tahapan pendaftaran",
+            "apa saja proses dalam  mendaftarkan pernikahan? ",
+            "apa saja tahapan pendaftaran pernikahan di KUA",
+            "seperti apa tahapan pendaftaran pernikahan di KUA"
+        ],
+        "responses":[
+            "pasangan yang ingin mendaftar bisa langsung datang ke KUA dan menyerahkan berkas persyaratan ke petugas yang ada di kua kemudian pihak kua akan mmengecek akurasi data yang kalian berikan selanjutnya petugas akan menginput data kalian ke kantor pusat jika sudah selesai petugas akan memberikan tanda bukti pendaftaran kepada kalian "
+        ],
+        "context": [ "proses dalam pendaftaran" ]
+
+      },
+      
+      {
+        "tag":"bimbingan perkawinan",
+        "patterns":[
+            "bimbingan perkawinan",
+            "apa saja bimbingan perkawinan?",
+            "bagaimana cara bimbingan perkawinan?"
+        
+        ],
+        "responses":[
+            "bimbingan yang diberikan kepada calon pengantin sebagai bekal sebelum memasuki perkawinan "
+            
+        ]
+
+      },
+      {
+        "tag":"usia boleh menikah",
+        "patterns":[
+            "batas usia boleh menikah",
+            "umur berapa wanita boleh menikah?",
+            "umur berapa pria boleh menikah?",
+            "umur berapa perempuan boleh menikah?",
+            "umur berapa laki-laki boleh menikah?",
+            "usia berapa wanita boleh menikah?",
+            "usia berapa perempuan boleh menikah?",
+            "usia berapa pria boleh menikah?",
+            "usia berapa lakilaki boleh menikah?",
+            "usia berapa kita bisa boleh menikah?",
+            "umur berapa kita boleh menikah?",
+            "berapa syarat umur yang dibolehkan untuk menikah?",
+            "bagaimana cara bimbingan perkawinan?"
+        
+        ],
+        "responses":[
+            "baik laki-laki maupun perempuan dibolehkan  menikah jika sudah berusia usia 19 th",
+            "syarat boleh menikah jika lakilaki dan perempuan sudah berusia 19 th"
+            
+        ]
+
+      },
+       {
+        "tag":"biaya_nikah",
+        "patterns":[
+            "biaya nikah",
+            "berapa biaya daftar pernikahan?",
+            "bagaimana dengan biaya pendaftaran nikah?",
+            "berapa biaya nikah?"
+            
+        ],
+        "responses":[
+            "untuk pendafataran nikah  dan pelaksanaan ijab kabul tidak dikenakan biaya apapun jika dilakukan pada jam oprasional kua namun jika ijab kabul dilaksanakan di rumah calon pasangan maka akan dikenakan biaya sebesar Rp 600.000 "
+        ]
+
+      },
+      {
+        "tag":"estimasi_waktu_pendaftaran",
+        "patterns":[
+            "estimasi waktu pendaftaran",
+            "berapa hari untuk  mengurus pendaftaran pernikahan di KUA?",
+            "berapa lama waktu yang dibutuhkan untuk mengurus pendaftaran pernikahan?"
+        ],
+        "responses":[
+            "jika tidak ada kendala terhadap akurasi data dari calon pengantin , maka proses pendaftaran dapat selesai dalam waktu satu hari (hari itu juga)."
+            
+        ]
+
+      },
+      {
+        "tag":"pendaftaran_online",
+        "patterns":[
+            "apakah bisa pendaftaran online?",
+            "bagaimana dengan daftar online?",
+            "apakah bisa dilakukan daftar online saja?",
+            "daftar online?"
+        
+        ],
+        "responses":[
+            "pendaftaran online bisa dilakukan pada website berikut  https://pusaka.kemenag.go.id/  "
+            
+        ],
+        "context":["daftar online"]    
+
+      },
+      {
+        "tag":"tahapan_setelah_pendaftaran",
+        "patterns":[
+            "tahapan setelah pendaftaran pernikahan",
+            "apa tahapan selanjuntya jika kita sudah berhasil mendaftar?",
+            "apa  tahapan setelah berhasil mendaftarkan pernikahan ?"
+            
+        ],
+        "responses":[
+            "ada dua tahapan lagi yaitu bimbingan perkawinan dan ijab kabul atau pernikahan yang dapat dilakukan di KUA maupun di luar KUA"
+        ],
+    
+    "context":["tahapan setelah pendaftaran"] 
+
+
+      },
+      {
+        "tag":"informasi_pelaksanaan_ijabkabul",
+        "patterns":[
+            "ijab kabul",
+            "informasi pelaksanaan ijab kabul",
+            "kapan ijab kabul dilakukan?",
+            "bagaimana dengan pelaksanaan ijab kabul?"
+        ],
+        "responses":[
+            "pernikahan atau ijab kabul dapat dilaksanakan setelah 14 hari kita mendaftarkan pernikahan , namun jika pelaksanaan ingin dipercepat maka kedua calon mempelai harus meminta surat rekomendasi dari kecamatan"
+            
+        ],
+        "context":["informasi ijab kabul"]    
+       },
+      {
+        "tag":"informasi_buku_nikah",
+        "patterns":[
+            "informasi buku nikah",
+            " buku nikah",
+            "gimana cara memperoleh buku nikah?",
+            "kapan kita mendapatkan buku nikah?",
+            "bagaimana sih cara dapetin buku nkah?"
+        ],
+        "responses":[
+            "buku nikah akan diberikan ketika pelaksanaan ijab kabul atau 14 hari setelah kedua calon berhasil mendaftarkan pernikahanya"
+        ]
+
+      },
+      {
+        "tag":"ijabkabul_dikua",
+        "patterns":[
+            "ijab kabul di KUA",
+            "apa boleh ijab kabul di KUA?",
+            "gimana sih cara ijab kabul di KUA?",
+            "ijab kabul di KUA bayar ga?"
+        ],
+        "responses":[
+            "ijab kabul dapat dilakukan di KUA dengan mengikuti jam operasional KUA dan layanan ini tidak dipungut biaya apa pun "
+    
+        ],
+        "context":["informasi ijabkabul di KUA"] 
+
+      },
+      {
+        "tag":"ijabkabul_diluarkua",
+        "patterns":[
+            "ijab kabul di luar KUA",
+            "ijab kabul di rumah",
+            "boleh ga sih ijab kabul di luar KUA?",
+            "gimana sih cara ijab kabul di luar KUA?"
+        ],
+        "responses":[
+            "ijab kabul juga bisa dilakukan di luar KUA namun pelayanan ini dikenakan biaya sebesar rp 600.000 untuk distorkan ke negara"
+        ],
+        "context":["informasi ijab kabul di luar KUA"] 
+
+      },
+      {
+        "tag":"kepala_kua_saatini",
+        "patterns":[
+            "kepala KUA Tenjo saat ini",
+            "siapa kepala KUA Tenjo saat ini?"
+        ],
+        "responses":[
+            "Abdul Muiz M.A dari tahun 2022 sampai saat ini tahun 2023"
+        ]
+
+      },
+      {
+        "tag":"alamatdan_jamoperasional",
+        "patterns":[
+            "alamat dan jam operasional",
+            "alamat KUA",
+            "dimana alamat KUA Tenjo?",
+            "KUA buka sampe jam berapa?",
+            "lokasi KUA tenjo?",
+            "KUA Tenjo ada di mana"
+        ],
+        "responses":[
+            "KUA Tenjo terletak di belakang puskesmas tenjo kp.suka mulya des. tenjo kec.tenjo kab.bogor buka senin-jumat pkl 07.30 s/d 16.00"
+            
+        ]
+
+      }
+
+    ]
+}
